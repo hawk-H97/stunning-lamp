@@ -1,0 +1,54 @@
+OpenAI Models
+- OpenAI is a research company focused on artificial intelligence (AI). They are praticularly well-known for their 
+development of large language models (LLMs).
+
+LLMS?
+- LLM is a fancy way of saying a computer program that's really good with language. Just like you learn a language by 
+reading and listenting a lot, these programs are trained on massive amounts of text to understand and even create 
+human language!
+
+Diffrence between Generative AI vs LLMS
+
+Generative AI 
+- This is a broad term for any AI that can create new things, like art, music, text or even code. It's like a big 
+toolbox with many different creative AI tools.
+
+LLMs 
+- These are a specific type of Generative AI that focus on creating and understanding human lanugage. They're like a
+really powerful tool in the generative AI toolbox, specialized for working with words.
+
+Tokens ?
+- When we provide prompts to OpenAI models, they become tokens. Tokens are like tiny pieces of text that OpenAI uses 
+to understand and process information. They can be individual words, parts of words, or even specical characters.
+
+Money 
+- OpenAI uses tokens as the unit for billing their services. That means you get charged based on the total number of
+tokens used in your request & the response you got in return.
+
+*** Parameters ****
+Model 
+- The name of the model you want to use eg: (gpt-3.5-turbo)
+
+Messages 
+- A list of message objects, where each object has two required fields.
+
+-> Role - The  role of the messenger ( either system, user, assistant or tool)
+-> Content - The content of the message ( e.g Tell about react native)
+
+*** role ***
+-> System 
+- The system role is used to set the behavior of the assistant. For example, you can specify the personality of the assistant 
+instruct it to follow a specific guideline.
+
+-> user
+- The user role is used to provide requests or comments for the assistant to respond to.
+
+-> Assistant 
+- The assistant role is used to store previous assistant response and can also be written by you to give examples of desired behavior.
+
+
+Max Tokens 
+- Sets the maximum nuber of generated tokens in chat completion
+
+n 
+- Generates a specified number of chat completion choices for each input.
